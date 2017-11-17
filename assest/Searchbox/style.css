@@ -1,0 +1,81 @@
+/*
+Theme Name: Template Name - Creative Business multipurpose HTML Template
+Theme URI: http://theimran.com/themeforest/
+Author: Abdullah Al Imran
+Author URI: http://theimran.com/
+Description: Template Name – Creative Business multipurpose HTML Template is especially designed for business niche companies. That contains everything any business needs.
+Version: 1.0
+*/
+
+/**
+ *** Table of Content ***
+ * reset css
+ * Topbar css
+ * Menu Section
+ * Search Box
+ * Home Section
+ * call to action css
+ * Services Section
+ * About Us Section
+ * Team Section
+ * CounterUp Section
+ * Projects Section
+ * Contact US Section
+ * Footer Sectoin
+ * Copyright Section
+ * *** Other CSS ***
+ * Content Slider CSS
+ * Background Image CSS
+ * Background Slider Parallax CSS
+ * *** pages css ****
+ * blog page css
+ * single page css
+ **/
+.searbox {
+    width: 100%;
+    height: 100%;
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s
+}
+.searbox.active{
+    visibility: visible;
+    opacity: 1
+}
+.searbox
+ form {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.search-input {
+    width: 300px;
+    display: inline-block;
+    height: 50px;
+    position: relative;
+}
+
+.search-input input {
+    width: 100%;
+    height: 100%;
+}
+
+.search-input button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 50px;
+    width: 50px;
+    background: transparent;
+}
+nav.navbar {
+    transition: 1s;
+    position: relative;
+    z-index: 5;
+    
+}
